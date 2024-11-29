@@ -157,6 +157,7 @@ footer p {
 }
 
 #Indirizzo {
+    font-family: "Open Sans", sans-serif;
     padding: 0 0 2em;
     color: #c8e7f0;
     border-bottom: 1px solid white;
