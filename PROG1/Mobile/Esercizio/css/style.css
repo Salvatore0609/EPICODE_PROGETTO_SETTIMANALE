@@ -135,6 +135,7 @@ aside img {
     width: 100%;
 }
 
+
 /* FOOTER */
 
 footer {
@@ -162,6 +163,10 @@ footer p {
     margin: 0 3em 3em;
     
     
+}
+
+#linkEsterno {
+    color: #c8e7f0
 }
 
 address a {
