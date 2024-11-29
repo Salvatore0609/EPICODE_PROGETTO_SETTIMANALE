@@ -68,6 +68,7 @@ header button {
     border-radius: 5px;
     border: #f04c2f;
     line-height: 0;
+    cursor: pointer;
 }
 
 /* MAIN */
