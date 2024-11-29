@@ -17,7 +17,11 @@ body {
 /* HEADER */
 header {
     background-color: black;
-    width: 100%;
+}
+
+header figure {
+    padding-bottom: 1em;
+    margin: 0;
 }
 
 header img {
@@ -30,8 +34,9 @@ header div {
     text-align: center;
     background-image: url(../images/banner.jpg);
     background-size: cover;
-    width: 100%;
-    padding-bottom: 1.5em;
+    padding: 15em
+    /* width: 100%; */
+    /* padding-bottom: 1.5em; */
 }
 
 header div h1 {
@@ -59,7 +64,7 @@ header button {
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
     padding: 1.5em;
-    width: 6%;
+    /* width: 6%; */
     border-radius: 5px;
     border: #f04c2f;
     line-height: 0;
