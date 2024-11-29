@@ -184,8 +184,11 @@ footer p {
     
 }
 
+#linkEsterno {
+    color: #c8e7f0
+}
+
 address a {
     padding: 1em;
     color: #c8e7f0
 }
-
