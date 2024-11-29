@@ -11,30 +11,27 @@ body {
     font-size: 1.2rem;
     color: #393d41;
     line-height: 1.65;
-    text-align: center;
+    /* text-align: center;  */
 }
 
 /* HEADER */
 header {
     background-color: black;
     width: 100%;
-    /* padding-bottom: 0.01em; */
-    /* overflow: visible; */
 }
 
 header img {
     width: 150px;
-    margin-top: 2em;
+    margin: 1em 2em 0;
+    text-align: left;
 }
 
 header div {
+    text-align: center;
     background-image: url(../images/banner.jpg);
     background-size: cover;
     width: 100%;
     padding-bottom: 1.5em;
-    
-    /* padding-bottom: 0.01em; */
-    /* overflow: visible; */
 }
 
 header div h1 {
@@ -43,13 +40,13 @@ header div h1 {
     line-height: 1em;
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 1.5em;
     margin-bottom: 0;
 }
 
 #headerPchild {
     margin: 1em;
-    font-size: 1.2em;
+    font-size: 1em;
     margin-top: 0;
     text-align: center;
     line-height: 1.5em;
@@ -62,7 +59,7 @@ header button {
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
     padding: 1.5em;
-    width: 35%;
+    width: 6%;
     border-radius: 5px;
     border: #f04c2f;
     line-height: 0;
@@ -72,13 +69,28 @@ header button {
 
 main {
     background-color: white;
-    
+    text-align: center;
 }
 
-article div {
-    padding: 2em
+article div  {
+    margin: 0 auto;
+    width: 80%;
+    padding: 2em 0em;
+}
+
+article div div {
+    display: inline-block;
+    text-align: left;
+    width: 50%;
+    font-size: 0.8em;
 }
 /* ELEMENTI NEL MAIN - ARTICLE */
+
+article img {
+    width: 20%;
+    margin-right: 4em;
+    border-radius: 50%;
+}
 
 article h3 {
     color: #25a2c3 ;
@@ -88,11 +100,6 @@ article h3 {
 }
 article p {
     font-size: 1.2em;
-}
-
-article img {
-    width: 100%;
-    border-radius: 50%;
 }
 
 section {
@@ -117,13 +124,16 @@ section p {
 /* ELEMENTI NELL' ASIDE */
 
 aside {
-    padding: 1em;
+    padding: 1em 0 4em;
+    text-align: center;
     background-color: white;
 }
 
 aside div {
+    display: inline-block;
     border: #dee1e3 solid;
-    margin-bottom: 1em;
+    margin: 1em;
+    width: 25%;
 }
 
 aside h3 {
@@ -133,6 +143,8 @@ aside h3 {
 
 aside img {
     width: 100%;
+    height: 275.37px;
+    object-fit: cover;
 }
 
 aside h2 {
@@ -150,7 +162,10 @@ footer {
     padding-bottom: 1em;
     background-color: #25a2c3 ;
 }
-
+footer div {
+    display: inline;
+    text-align: center;
+}
 footer h2 {
     padding: 1em 0 0;
     color: white
@@ -167,7 +182,7 @@ footer p {
     padding: 0 0 2em;
     color: #c8e7f0;
     border-bottom: 1px solid white;
-    margin: 0 3em 3em;
+    /* margin: 0 40em 3em; */
     
     
 }
