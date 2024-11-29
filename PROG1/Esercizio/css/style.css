@@ -1,1 +1,326 @@
-/* Your styles here */
+/* IMPOSTAZIONI GENERALI */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@400;700&display=swap');
+
+body {
+    text-align: center;
+    padding: 1em;
+    background-image: url("../img/sfondo.png");
+    background-size: auto;
+    background-position: top center;
+}
+
+/* HEADER */
+header {
+    background: rgb(5, 124, 153);
+    background: -moz-linear-gradient(0deg, rgba(5, 124, 153, 1) 46%, rgba(19, 134, 153, 1) 60%, rgba(48, 169, 200, 1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(5, 124, 153, 1) 46%, rgba(19, 134, 153, 1) 60%, rgba(48, 169, 200, 1) 100%);
+    background: linear-gradient(0deg, rgba(5, 124, 153, 1) 46%, rgba(19, 134, 153, 1) 60%, rgba(48, 169, 200, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#057c99", endColorstr="#30a9c8", GradientType=1);
+
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    padding-bottom: 0.01em;
+    overflow: visible;
+    box-shadow: 0px 2px 5px 2px grey;
+}
+
+header img {
+    width: 200px;
+    margin: 1em
+}
+
+header p {
+    color: white;
+    font-weight: bold;
+    margin: 1em
+}
+
+header nav {
+    margin: 1em;
+}
+
+ul li a::before {
+    content: "=> "
+}
+
+ul li a::after {
+    content: " <="
+}
+
+ul li a {
+    text-decoration: none;
+    margin: 1em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+hr {
+    visibility: hidden;
+}
+
+/* MAIN */
+
+main {
+    padding: 2em 1em 1em;
+    background-color: white;
+    box-shadow: 0px 5px 5px 2px grey;
+
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+article {
+
+    width: 100%;
+    padding-top: 0.01em;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+}
+
+article h1 {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    font-weight: 600;
+    margin: 0 0 1em 0;
+}
+
+#autore {
+    margin: 1em 0;
+    font-size: 1em;
+    color: rgb(165, 164, 164)
+}
+
+#parte1 {
+    margin: 1em 0;
+    line-height: 1.5em;
+    font-size: 0.9em;
+}
+
+#parte1 strong {
+    color: rgb(178, 97, 169);
+    font-weight: bold;
+}
+
+#lista {
+    margin: 1em 0;
+    line-height: 1.5em;
+}
+
+article ul li {
+    margin-left: 2em;
+    margin-right: 2em;
+    list-style-type: disc;
+    line-height: 1.5em;
+}
+
+code {
+    background-color: rgba(128, 128, 128, 0.203);
+    border: 1px solid rgba(0, 0, 0, 0.431);
+    border-radius: 5px ;
+}
+
+#parte2article {
+    font-size: 1em;
+    line-height: 1.5em;
+    margin: 1em 0;
+}
+
+#parte2article strong {
+    color: rgb(178, 97, 169);
+    font-weight: bold;
+}
+
+article ol li {
+    margin-left: 2em;
+    margin-right: 2em;
+    list-style-type: decimal;
+    line-height: 1.5em;
+}
+
+#parte3article {
+    font-size: 1em;
+    line-height: 1.5em;
+    margin: 1em 0;
+}
+
+#parte4article {
+    font-size: 1em;
+    line-height: 1.5em;
+    margin: 1em 0;
+}
+
+#parte4article a {
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: rgb(4, 187, 233);
+}
+
+article div {
+    text-align: center;
+    margin: 1em;
+}
+
+iframe {
+    width: 100%;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+section {
+    padding: 1em;
+    margin: 1em 0;
+    margin-bottom: 0;
+    background-color: rgba(128, 128, 128, 0.24);
+    font-family: "Poppins", sans-serif;
+}
+
+section h2 {
+    font-size: 1.8em;
+    font-weight: 550;
+    margin-top: 0.5em;
+    color: rgba(0, 0, 0, 0.751);
+    text-align: center;
+}
+
+section p {
+    margin: 1em;
+    font-size: 1.4em;
+    line-height: 1.5em;
+}
+
+/* TABELLE */
+
+table {
+    text-align: center;
+    margin: 1em 0;
+
+}
+
+caption {
+    font-style: italic;
+    font-weight: bold;
+}
+
+th {
+    font-family: "Poppins", sans-serif;
+    background-color: rgba(2, 2, 251, 0.321);
+    color: white;
+    padding: 1.2em;
+    border-right: 1px solid white;
+}
+
+#anno {
+    vertical-align: bottom;
+}
+
+tbody {
+    padding: 1em;
+    font-family: "Poppins", sans-serif;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(128, 128, 128, 0.155);
+    border-top: 1px solid rgba(128, 128, 128, 0.387);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.387);
+}
+
+tbody:last-child {
+    border-bottom: 2px solid rgba(2, 2, 251, 0.429);
+}
+
+td {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+/* FORM */
+
+form {
+    text-align: center;
+    width: 100%
+}
+
+input#user_email {
+    height: 1.5em;
+    font-size: 1em;
+    margin: 0em;
+    border: none;
+    border-bottom: 1.5px dashed rgba(0, 0, 0, 0.577);
+}
+
+button {
+    height: 1.5em;
+    font-size: 1em;
+    border: none;
+    background-color: rgba(0, 0, 255, 0.348);
+    color: white;
+}
+
+/* ELEMENTI NELL' ASIDE */
+
+aside {
+    padding: 1em;
+    background-color: white;
+    box-shadow: 0px 10px 10px 0px grey;
+    font-family: "Poppins", sans-serif;
+
+}
+
+aside h2 {
+
+    padding: 0 0 1em 0;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.821);
+}
+
+aside div {
+    text-align: left;
+    padding: 1em;
+    margin: 0 0 1em 0;
+    background-color: rgba(128, 128, 128, 0.311);
+    border: 1px solid rgba(0, 0, 0, 0.282);
+}
+
+aside div p {
+    margin-top: 0.5em;
+}
+
+aside div a {
+    color: rgb(4, 187, 233);
+}
+
+.data {
+    text-align: right;
+    margin-top: 1.5em
+}
+
+/* FOOTER */
+
+footer {
+    background: rgb(11,58,66);
+background: -moz-linear-gradient(0deg, rgba(11,58,66,1) 10%, rgba(15,98,113,1) 100%, rgba(17,113,129,1) 100%);
+background: -webkit-linear-gradient(0deg, rgba(11,58,66,1) 10%, rgba(15,98,113,1) 100%, rgba(17,113,129,1) 100%);
+background: linear-gradient(0deg, rgba(11,58,66,1) 10%, rgba(15,98,113,1) 100%, rgba(17,113,129,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0b3a42",endColorstr="#117181",GradientType=1);
+
+    box-shadow: 0px 5px 5px 2px grey;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+footer p {
+    padding: 1em
+}
+
+address {
+    padding-bottom: 2em
+}
+
+address a {
+    font-weight: bold;
+    color: rgb(246, 94, 228) ;
+}
